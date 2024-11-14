@@ -34,18 +34,26 @@ System Architecture
 # Class Structure:
 
 ParkingManager: Central class managing the parking facility operations, including slot allocation, payment processing, and slot tracking.
+
 Vehicle: Base class for different vehicle types. The subclasses (Car, Bike) inherit from this class.
+
 ParkingSlot: Represents a single parking slot, with methods to set its status (occupied or available).
+
 Payment (Inner Class): Manages payment-related functionality and transaction records.
+
 Exceptions: Custom exceptions (e.g., InvalidSlotException, PaymentException) for error handling.
+
 Data Handling with Collections and File I/O:
 
 Java’s Map and List are used to manage slot assignments and parked vehicles.
+
 File I/O is employed to save transaction and slot information, allowing for persistent data storage.
-Implementation Concepts
+
+## Implementation Concepts
 # Object-Oriented Principles:
 
 Uses inheritance (e.g., Vehicle as a parent class) and polymorphism (e.g., common methods overridden in subclasses).
+
 Applies encapsulation by keeping data (like payment details) within inner classes.
 # Exception Handling:
 
@@ -55,5 +63,7 @@ Ensures smooth operation by catching specific issues (e.g., invalid slots, payme
 Java threads manage multiple parking and payment requests, improving efficiency.
 # Future Improvements
 Database Integration: Using a relational database like MySQL for more robust and secure data storage.
+
 Web/Mobile Application: Extending the system to a mobile or web application for remote access.
+
 Reporting and Analytics: Adding functionality to generate reports on parking usage, revenue, etc., for management insights.
