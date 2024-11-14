@@ -43,7 +43,7 @@ Payment (Inner Class): Manages payment-related functionality and transaction rec
 
 Exceptions: Custom exceptions (e.g., InvalidSlotException, PaymentException) for error handling.
 
-Data Handling with Collections and File I/O:
+# Data Handling with Collections and File I/O:
 
 Java’s Map and List are used to manage slot assignments and parked vehicles.
 
