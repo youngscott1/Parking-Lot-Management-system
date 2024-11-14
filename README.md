@@ -49,19 +49,19 @@ Java’s Map and List are used to manage slot assignments and parked vehicles.
 
 File I/O is employed to save transaction and slot information, allowing for persistent data storage.
 
-## Implementation Concepts
-# Object-Oriented Principles:
+# Implementation Concepts
+## Object-Oriented Principles:
 
 Uses inheritance (e.g., Vehicle as a parent class) and polymorphism (e.g., common methods overridden in subclasses).
 
 Applies encapsulation by keeping data (like payment details) within inner classes.
-# Exception Handling:
+## Exception Handling:
 
 Ensures smooth operation by catching specific issues (e.g., invalid slots, payment errors) with custom exceptions.
-# Threading for Concurrency:
+## Threading for Concurrency:
 
 Java threads manage multiple parking and payment requests, improving efficiency.
-# Future Improvements
+## Future Improvements
 Database Integration: Using a relational database like MySQL for more robust and secure data storage.
 
 Web/Mobile Application: Extending the system to a mobile or web application for remote access.
