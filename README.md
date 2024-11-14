@@ -64,6 +64,9 @@ Java threads manage multiple parking and payment requests, improving efficiency.
 ## Future Improvements
 Database Integration: Using a relational database like MySQL for more robust and secure data storage.
 
+
+#####                                                            -prepared by Nikhil Kumar Sharma and Ayush Bhagat
+
 Web/Mobile Application: Extending the system to a mobile or web application for remote access.
 
 Reporting and Analytics: Adding functionality to generate reports on parking usage, revenue, etc., for management insights.
